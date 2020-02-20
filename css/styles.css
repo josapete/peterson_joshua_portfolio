@@ -8,7 +8,7 @@ html,
 body {
   height: 100%;
   font-family: "Lato", sans-serif;
-  background-color: navy; }
+  background-color: black; }
 
 h1,
 h2,
@@ -18,3 +18,43 @@ h5,
 h6,
 p {
   margin-bottom: 16px; }
+
+nav {
+  position: relative;
+  width: 80%;
+  height: 92px;
+  border-bottom: 2px solid #03a7ff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: right;
+  -ms-flex-align: right;
+  align-items: right;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+  nav .links-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+  nav .links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    nav .links a {
+      text-decoration: none;
+      text-transform: none;
+      color: #03a7ff; }
+    nav .links span {
+      margin: 0 10px;
+      font-size: 20px;
+      color: black; }
