@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  alignt-items: center;
+  margin: 0 auto;
+  background-color: darkslategray;
+  width: 100%;
+
+  .contact {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .menu {
+    flex-direction: column;
+    display: flex;
+  }
+}

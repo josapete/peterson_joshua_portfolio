@@ -8,7 +8,7 @@ html,
 body {
   height: 100%;
   font-family: "Lato", sans-serif;
-  background-color: black; }
+  background-color: white; }
 
 h1,
 h2,
@@ -19,9 +19,25 @@ h6,
 p {
   margin-bottom: 16px; }
 
+.hero-wrapper {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 0 auto;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
 nav {
   position: relative;
-  width: 80%;
+  width: 100%;
   height: 92px;
   border-bottom: 2px solid #03a7ff;
   display: -webkit-box;
@@ -39,7 +55,10 @@ nav {
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center; }
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
   nav .links {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -49,7 +68,9 @@ nav {
     align-items: center;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center; }
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 50px; }
     nav .links a {
       text-decoration: none;
       text-transform: none;
@@ -57,4 +78,34 @@ nav {
     nav .links span {
       margin: 0 10px;
       font-size: 20px;
-      color: black; }
+      color: #03a7ff;
+      margin-bottom: 3px; }
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  alignt-items: center;
+  margin: 0 auto;
+  background-color: darkslategray;
+  width: 100%; }
+  .footer .contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .footer .menu {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
