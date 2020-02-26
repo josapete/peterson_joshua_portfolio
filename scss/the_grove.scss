@@ -1,0 +1,23 @@
+.the_grove_wrapper {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+
+  img {
+    height: 400px;
+    width: 200px;
+  }
+
+  .code {
+    height: 400px;
+    width: 600px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+}

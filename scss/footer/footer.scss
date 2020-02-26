@@ -1,18 +1,39 @@
-.footer {
-  display: flex;
-  flex-direction: column;
-  alignt-items: center;
-  margin: 0 auto;
-  background-color: darkslategray;
+.footer-wrapper {
+  background-color: black;
   width: 100%;
 
-  .contact {
-    flex-direction: column;
+  .footer {
     display: flex;
-  }
+    justify-content: left;
+    text-align: left;
+    margin: 0 auto;
+    margin-left: -390px;
+    padding-top: 30px;
+    background-color: black;
+    width: 100%;
 
-  .menu {
-    flex-direction: column;
-    display: flex;
+    .contact {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      margin-left: -300px;
+      color: $site-dark-blue;
+
+      h3 {
+        color: $site-blue;
+      }
+    }
+
+    .menu {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      align-self: left;
+      color: $site-dark-blue;
+
+      h3 {
+        color: $site-blue;
+      }
+    }
   }
 }
