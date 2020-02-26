@@ -128,17 +128,21 @@ nav {
       .footer-wrapper .footer .menu h3 {
         color: #03a7ff; }
 
-.project1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.content-wrapper {
   margin: 0 auto;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
-  .project1 img {
-    height: 400px;
-    width: 600px; }
+  width: 100%;
+  height: 100%; }
+  .content-wrapper .project1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .content-wrapper .project1 img {
+      height: 500px;
+      width: 800px; }
 
 .the_grove_wrapper {
   display: -webkit-box;
@@ -158,3 +162,15 @@ nav {
     text-align: center; }
   .the_grove_wrapper p {
     text-align: center; }
+
+.about-wrapper {
+  margin: 0 auto;
+  margin-left: 50px;
+  maring-right: 50px;
+  width: 80%;
+  height: 100%; }
+  .about-wrapper .about {
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
